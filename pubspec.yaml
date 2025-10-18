@@ -1,0 +1,30 @@
+name: flight_path_map
+description: A Flutter app to show flight routes dynamically with OpenStreetMap
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  http: ^1.2.0
+  flutter_typeahead: ^5.2.0   # 🔍 For autocomplete country/city suggestions
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bg1.jpg
+    - assets/bg2.jpg
+    - assets/bg3.jpg
